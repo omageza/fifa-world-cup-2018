@@ -1,0 +1,79 @@
+body
+{
+    position: relative;
+    background-color:#040213;
+}
+.font
+{
+    color:#fff;
+}
+.font2
+{
+    color:#fff;
+    font-size: 23px;
+}
+.headerimg
+{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.modric
+{
+
+    width: 50%;
+    height: 50%;
+}
+.modricpos
+{
+    position: absolute;   
+}
+.macth
+{
+    background-color: #eee;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items:center;
+
+}
+.fontmatch
+{
+    color:#040213;
+
+}
+.navul {
+    position: flex;
+    top:0px;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  .nav_li {
+      
+    float: left;
+  }
+  
+  .nav_li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav_li a:hover:not(.active) {
+    background-color: goldenrod;
+  }
+  
+  .active {
+    background-color: goldenrod;
+  }
+  .nav_li a:hover {
+    background-color: goldenrod;
+  }
